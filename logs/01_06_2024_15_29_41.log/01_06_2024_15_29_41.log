@@ -1,0 +1,24 @@
+[ 2024-01-06 15:29:42,531 ] 96 werkzeug - WARNING -  * Debugger is active!
+[ 2024-01-06 15:29:42,531 ] 96 werkzeug - INFO -  * Debugger PIN: 536-066-867
+[ 2024-01-06 15:30:22,532 ] 96 werkzeug - INFO - 127.0.0.1 - - [06/Jan/2024 15:30:22] "GET / HTTP/1.1" 200 -
+[ 2024-01-06 15:30:22,762 ] 96 werkzeug - INFO - 127.0.0.1 - - [06/Jan/2024 15:30:22] "[33mGET /static/Black.jpg HTTP/1.1[0m" 404 -
+[ 2024-01-06 15:34:39,579 ] 91 root - INFO - Entered initiate_data_ingestion method of Data_Ingestion class
+[ 2024-01-06 15:34:39,579 ] 59 root - INFO - Exporting data from mongodb
+[ 2024-01-06 15:34:43,641 ] 68 root - INFO - Saving exported data into feature store file path: artifacts
+[ 2024-01-06 15:34:43,663 ] 97 root - INFO - Got the data from mongodb
+[ 2024-01-06 15:34:43,664 ] 100 root - INFO - Exited initiate_data_ingestion method of Data_Ingestion class
+[ 2024-01-06 15:34:43,664 ] 99 root - INFO - Entered initiate_data_transformation method of Data_Transformation class
+[ 2024-01-06 15:34:43,689 ] 39 root - INFO - Entered the save_object method of MainUtils class
+[ 2024-01-06 15:34:43,691 ] 45 root - INFO - Exited the save_object method of MainUtils class
+[ 2024-01-06 15:34:43,692 ] 150 root - INFO - Splitting training and testing input and target feature
+[ 2024-01-06 15:34:43,692 ] 161 root - INFO - Extracting model config file path
+[ 2024-01-06 15:34:43,692 ] 168 root - INFO - Extracting model config file path
+[ 2024-01-06 15:35:13,113 ] 203 root - INFO - Best found model on both training and testing dataset
+[ 2024-01-06 15:35:13,113 ] 208 root - INFO - Saving model at path: artifacts\model.pkl
+[ 2024-01-06 15:35:13,113 ] 39 root - INFO - Entered the save_object method of MainUtils class
+[ 2024-01-06 15:35:13,123 ] 45 root - INFO - Exited the save_object method of MainUtils class
+[ 2024-01-06 15:35:13,140 ] 96 werkzeug - INFO - 127.0.0.1 - - [06/Jan/2024 15:35:13] "GET /train HTTP/1.1" 200 -
+[ 2024-01-06 15:35:13,473 ] 96 werkzeug - INFO - 127.0.0.1 - - [06/Jan/2024 15:35:13] "[33mGET /static/Black.jpg HTTP/1.1[0m" 404 -
+[ 2024-01-06 15:39:09,546 ] 96 werkzeug - INFO - 127.0.0.1 - - [06/Jan/2024 15:39:09] "GET /predict HTTP/1.1" 200 -
+[ 2024-01-06 15:39:09,757 ] 96 werkzeug - INFO - 127.0.0.1 - - [06/Jan/2024 15:39:09] "[33mGET /script.js HTTP/1.1[0m" 404 -
+[ 2024-01-06 15:39:09,769 ] 96 werkzeug - INFO - 127.0.0.1 - - [06/Jan/2024 15:39:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
