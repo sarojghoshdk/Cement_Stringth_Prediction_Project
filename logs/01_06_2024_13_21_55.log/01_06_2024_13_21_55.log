@@ -1,0 +1,28 @@
+[ 2024-01-06 13:21:57,359 ] 96 werkzeug - WARNING -  * Debugger is active!
+[ 2024-01-06 13:21:57,375 ] 96 werkzeug - INFO -  * Debugger PIN: 570-299-064
+[ 2024-01-06 13:22:11,151 ] 96 werkzeug - INFO - 127.0.0.1 - - [06/Jan/2024 13:22:11] "GET / HTTP/1.1" 200 -
+[ 2024-01-06 13:22:11,388 ] 96 werkzeug - INFO - 127.0.0.1 - - [06/Jan/2024 13:22:11] "[33mGET /static/Black.jpg HTTP/1.1[0m" 404 -
+[ 2024-01-06 13:22:11,995 ] 96 werkzeug - INFO - 127.0.0.1 - - [06/Jan/2024 13:22:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2024-01-06 13:22:27,271 ] 91 root - INFO - Entered initiate_data_ingestion method of Data_Ingestion class
+[ 2024-01-06 13:22:27,271 ] 59 root - INFO - Exporting data from mongodb
+[ 2024-01-06 13:22:30,287 ] 68 root - INFO - Saving exported data into feature store file path: artifacts
+[ 2024-01-06 13:22:30,303 ] 97 root - INFO - Got the data from mongodb
+[ 2024-01-06 13:22:30,303 ] 100 root - INFO - Exited initiate_data_ingestion method of Data_Ingestion class
+[ 2024-01-06 13:22:30,303 ] 99 root - INFO - Entered initiate_data_transformation method of Data_Transformation class
+[ 2024-01-06 13:22:30,335 ] 39 root - INFO - Entered the save_object method of MainUtils class
+[ 2024-01-06 13:22:30,335 ] 45 root - INFO - Exited the save_object method of MainUtils class
+[ 2024-01-06 13:22:30,335 ] 150 root - INFO - Splitting training and testing input and target feature
+[ 2024-01-06 13:22:30,335 ] 161 root - INFO - Extracting model config file path
+[ 2024-01-06 13:22:30,335 ] 168 root - INFO - Extracting model config file path
+[ 2024-01-06 13:22:45,487 ] 203 root - INFO - Best found model on both training and testing dataset
+[ 2024-01-06 13:22:45,487 ] 208 root - INFO - Saving model at path: artifacts\model.pkl
+[ 2024-01-06 13:22:45,487 ] 39 root - INFO - Entered the save_object method of MainUtils class
+[ 2024-01-06 13:22:45,507 ] 45 root - INFO - Exited the save_object method of MainUtils class
+[ 2024-01-06 13:22:45,527 ] 96 werkzeug - INFO - 127.0.0.1 - - [06/Jan/2024 13:22:45] "GET /train HTTP/1.1" 200 -
+[ 2024-01-06 13:22:45,863 ] 96 werkzeug - INFO - 127.0.0.1 - - [06/Jan/2024 13:22:45] "[33mGET /static/Black.jpg HTTP/1.1[0m" 404 -
+[ 2024-01-06 13:23:03,917 ] 96 werkzeug - INFO - 127.0.0.1 - - [06/Jan/2024 13:23:03] "GET /predict HTTP/1.1" 200 -
+[ 2024-01-06 13:23:04,149 ] 96 werkzeug - INFO - 127.0.0.1 - - [06/Jan/2024 13:23:04] "GET /static/css/style.css HTTP/1.1" 200 -
+[ 2024-01-06 13:23:04,149 ] 96 werkzeug - INFO - 127.0.0.1 - - [06/Jan/2024 13:23:04] "[33mGET /script.js HTTP/1.1[0m" 404 -
+[ 2024-01-06 13:23:37,870 ] 110 root - INFO - predictions completed. 
+[ 2024-01-06 13:23:37,870 ] 40 root - INFO - prediction completed. Downloading prediction file.
+[ 2024-01-06 13:23:37,888 ] 96 werkzeug - INFO - 127.0.0.1 - - [06/Jan/2024 13:23:37] "POST /predict HTTP/1.1" 200 -
